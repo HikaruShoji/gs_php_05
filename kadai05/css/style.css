@@ -1,0 +1,52 @@
+@charset "utf-8";
+html{
+  font-size: 62.5%;
+}
+body{
+	display:flex;
+	height:100%;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	background:#ffedaa;
+	color:#333;
+}
+form{
+	font-size: 1.6rem;
+  margin: 10px auto 30px auto;
+}
+.choose{
+	font-size: 2.0rem;
+  margin-left: 40px;
+}
+img{
+  width: 350px;
+  height: auto;
+}
+input{
+  text-align: center;
+	width: 25px;
+	height: 25px;
+	position:relative;
+	top:2px;
+}
+button{
+	width: fit-content;
+	height: auto;
+	font-size: 2.2rem;
+	color:#333;
+	margin-top: 20px;
+}
+.sazae_img{
+	display:flex;
+	width: 80%;
+	justify-content:space-around;
+}
+.vs{
+  margin: auto 20px;
+}
+p{
+  font-size: 4.0rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
